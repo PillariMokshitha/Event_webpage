@@ -1,0 +1,162 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script:wght@500&family=Poppins:wght@200;300&family=Roboto&display=swap');
+/* universal selector */
+*{
+    padding:0px;
+    margin:0;
+}
+
+
+/* applying background image */
+.container{
+    background-image: url("https://assets.gqindia.com/photos/63f5a7f1b295b6a9921513e9/16:9/pass/IPL_2023.jpeg");
+    height:750px;
+}
+.background-image{
+    filter: blur(5px);
+}
+
+
+/* header section using display flex */
+.header{
+    width:100%;
+    height:auto;
+    box-sizing: border-box;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:blue;
+}
+
+.header ul{
+    display:flex;
+
+}
+.header li{
+    padding:30px;
+    font-size: larger;
+    
+}
+
+/* styling button element */
+.button1{
+    width:100px;
+    height:30px;
+    margin:20px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right,hsl(300, 87%, 61%),#4e4edc);
+    color:aliceblue;
+
+}
+
+/* making anchor tag decoration none */
+.header a{  
+    text-decoration: none;
+    color:cyan;
+}
+
+.content{
+   
+    font-size:x-large;
+    padding-top:50px;
+}
+
+/* styling marquee tag */
+marquee{
+    color:white;
+    padding:30px;
+    font-size: x-large;
+}
+/* implementation box shadow*/
+.content span{
+    color: coral;
+    border: 2px solid coral;
+    padding:5px;
+    margin: 100px 50px;
+    box-shadow: 10px 11px 5px -4px rgba(221,185,185,0.75);
+    font-weight: bolder;
+}
+
+/* highligting date section */
+.dates{
+
+    width:200px;
+    height:auto;
+    padding:10px;
+    margin:50px;
+    color: coral;
+    border: 2px solid coral;
+    box-shadow: 10px 11px 5px -4px rgba(221,185,185,0.75);
+    font-family: 'Dancing Script', cursive;
+    font-weight:bolder;
+}
+
+/* displaying photos using flex */
+.display{
+    background-color:#5143e5;
+    display:flex;
+    justify-content: center;
+}
+
+.photo1{
+    margin:20px;
+}
+.photo1:hover{
+    transform:scale(1.1);
+    
+}
+
+h1{
+    color:cyan;
+    text-align: center;
+    background-color:blue;
+}
+.photo1 button{
+    width:100px;
+    padding:10px;
+    margin:10px 130px;
+    border-radius: 15px;
+    color:white;
+    background-image: linear-gradient(to right,hsl(300, 87%, 61%),#4e4edc);
+    border:2px solid white;
+}
+
+.schedule{
+    text-align: center;
+    background-color:azure;
+    height:300px;
+}
+
+pre{
+    margin:10px;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    color:darkorchid;
+}
+.slot{
+    width:400px;
+    border:4px solid #6270eb;
+    margin-left: 500px;
+    padding:10px;
+    color:rgb(80, 80, 241);
+    box-shadow: 10px 12px 5px -3px rgba(129,59,206,0.75);
+}
+
+.Footer{
+    height:auto;
+    display:flex;
+    justify-content:space-around;
+    box-sizing: border-box;
+}
+
+.two{
+    line-height: 1.8;
+}
+.three{
+    line-height: 1.8;
+}
+
+a,ul{
+    text-decoration: none;
+    color:#4e4edc
+}

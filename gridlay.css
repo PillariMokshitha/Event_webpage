@@ -1,0 +1,33 @@
+*{
+    padding:0;
+    margin:5px;
+}
+
+.container{
+    width:100%;
+    height:600px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 1fr 100px;
+    gap:5px;
+    text-align: center;
+    /* padding:5px; */
+}
+
+.item{
+    background-color: aqua;
+    /* gap:5px; */
+    /* align-self:center; */  
+}
+
+.header1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: aquamarine;
+
+}
+
+.footer{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
